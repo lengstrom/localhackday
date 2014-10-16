@@ -5,10 +5,26 @@ body {
 	font-family: Inconsolata, Consolas, "Andale Mono", monospace;
 }
 
-#main {
-	width: 70%;
+#logo {
+	font-size: 3em;
+	display: block;
 	margin: 0 auto;
-	margin-top: 10%;
+	// float: left;
+	margin-top: 4%;
+	padding: 25px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#main {
+	color: #222;
+	width: 70%;
+	max-width: 525px;
+	margin: 0 auto;
+	margin-top: 1.2%;
+
 	@media (max-width: 320px) {
 		width: 80%;
 	}
