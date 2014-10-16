@@ -6,18 +6,20 @@ body {
   font-size: 3em;
   display: block;
   margin: 0 auto;
-  margin-top: 6%;
-  padding: 25px; }
+  margin-top: 7%; }
+  @media (max-width: 320px) {
+    #logo {
+      margin-top: 1em; } }
 
 h1 {
-  text-align: center; }
+  text-align: center;
+  margin: 1em 0; }
 
 #main {
   color: #222;
-  width: 70%;
   max-width: 525px;
-  margin: 0 auto;
-  margin-top: 1.2%; }
+  width: 70%;
+  margin: 0 auto; }
   @media (max-width: 320px) {
     #main {
-      width: 80%; } }
+      width: 90%; } }
